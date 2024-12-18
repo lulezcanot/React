@@ -1,0 +1,27 @@
+.Biografia{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.Biografia-Titulo{
+    font-size: 1.5rem;
+}
+
+.Biografia-Texto{
+ text-align: justify;
+}
+
+.Biografia-Button{
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #81e6d9;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    width: fit-content;
+}
