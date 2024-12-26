@@ -1,0 +1,50 @@
+body{
+  background-color: #202023;
+  color: white;
+}
+.Contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Titulo{
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.Input{
+  padding: 10px;
+  width: 300px;
+  border-radius: 20px;
+  border-color: antiquewhite;
+}
+.Boton{
+  padding: 10px;
+  border-radius: 20px;
+  border-color: antiquewhite;
+  background-color: #4CAF50;
+  font-weight: bold;
+}
+.Listas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  font-size: 1.5rem;
+
+}
+.ListasLI{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+}
+.BotonEliminar{
+  padding: 10px;
+  border-radius: 20px;
+  background-color: red;
+  font-weight: bold;
+}
