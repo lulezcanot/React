@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+}
+main{
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  gap:64px
+}
+form{
+margin-top: 64px;
+display: flex;
+flex-direction: column;
+gap: 4px;
+}
+label{
+  font-size: .8em;
+}
